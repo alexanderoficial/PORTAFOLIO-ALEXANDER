@@ -53,3 +53,44 @@
 }
 
 }
+/* Media query para tabletas y dispositivos Android DEL BARRA ADICIONAL */
+
+@media only screen and (max-width: 1023px) {
+    #barra-adicional {
+        display: none;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #barra-adicional ul {
+        padding: 0;
+        list-style-type: none;
+       
+    }
+    
+    #barra-adicional li {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #barra-adicional a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;
+        margin: 6px;
+    }
+    
+    #barra-adicional a:hover {
+        background-color: #f0f0f0;
+    }
+    
+    #barra-adicional span {
+        margin-left: 10px;
+    }
+    
+    #barra-adicional i {
+        margin-right: 10px;
+    }
+}
